@@ -4,8 +4,8 @@
 }
 
 body{
-    background: -webkit-linear-gradient(left, #0e251f, #21a0ab);
-    background: linear-gradient(to right, #23555c, #21a0ab);
+    background: -webkit-linear-gradient(left, #0e251f, #0ac9da);
+    background: linear-gradient(to right, #23555c, #0ac9da);
     font-family: 'Roboto', sans-serif;
     margin: 0;
     font-size: 15px;
