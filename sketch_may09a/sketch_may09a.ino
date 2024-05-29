@@ -1,27 +1,16 @@
 
-/* -----------------------------------------------------------------------------
-  - Project: Biometric attendance system using NodeMCU
-  - Author:  https://www.youtube.com/ElectronicsTechHaIs
-  - Date:  29/02/2020
-   -----------------------------------------------------------------------------
-  This code was created by Electronics Tech channel for 
-  the Biometric attendance project with NodeMCU.
-   ---------------------------------------------------------------------------*/
-//*******************************libraries********************************
-//NodeMCU--------------------------
 #include <WiFiClient.h> 
 #include <ESP8266WiFi.h>
 #include <SoftwareSerial.h>
 #include <ESP8266HTTPClient.h>
 #include <SimpleTimer.h>           //https://github.com/jfturcot/SimpleTimer
-//OLED-----------------------------
 #include <SPI.h>
 #include <Wire.h>
 #include "icons.h"
 #include <Adafruit_GFX.h>          //https://github.com/adafruit/Adafruit-GFX-Library
 #include <Adafruit_SSD1306.h>      //https://github.com/adafruit/Adafruit_SSD1306
 #include <Adafruit_Fingerprint.h>  //https://github.com/adafruit/Adafruit-Fingerprint-Sensor-Library
-//************************************************************************
+
 //Fingerprint scanner Pins
 #define Finger_Rx D5 //D5
 #define Finger_Tx D6 //D6
